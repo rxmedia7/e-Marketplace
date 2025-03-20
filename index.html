@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="marketplace.css">
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar">
+        <div class="container">
+            <div class="headcontainer">
+                <div class="start">
+                    <div class="logo">
+                        <a href="marketplace.html"><img src="assets/icons/logo.svg" alt="logo"></a>
+                    </div>
+                    <ul>
+                        <li class=active><a href="#">eShop</a></li>
+                        <li class=active><a href="#">Reports</a></li>
+                        <li class=active><a href="#">Orders</a></li>
+                        <li class=active><a href="#">Returns</a></li>
+                        <li class=active><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="end">
+                    <img src="assets/icons/block.svg">
+                    <img src="assets/icons/stat.svg">
+                    <div class="modal2">
+                        <!--Modal-->
+                        <h1>Selling of product by category</h1>
+
+                        <div id="text">
+                            <h2>Electronics</h2>
+                            <h2>Sport equipments</h2>
+                            <h2>Furniture</h2>
+                            <h2>Softaware solutions</h2>
+                            <h2>Food & grossery</h2>
+                        </div>
+
+                        <aside>
+                            <div id="electr"></div>
+                            <div id="sport"></div>
+                            <div id="furn"></div>
+                            <div id="soft"></div>
+                            <div id="food"></div>
+                        </aside>
+
+                        <footer>
+                            <h3>0</h3>
+                            <h3>50</h3>
+                            <h3>100</h3>
+                            <h3>150</h3>
+                            <h3>200</h3>
+                            <h3>250</h3>
+                            <h3>300</h3>
+                            <h3>350</h3>
+                            <h3>400</h3>
+                        </footer>
+                    </div>
+                    <img src="assets/icons/groupchat.svg">
+
+                    <div class="user-menu">
+                        <span id="name">Arlene McCoy</span>
+                        <span>Manager</span>
+                    </div>
+                    <div class="avatar"><span>A</span></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container-one">
+            <div class="sidebar">
+                <aside class="categories">
+                    <!--Categories-->
+                    <h1>Categories</h1>
+                    <form action="" method="GET">
+                        <div class="items">
+                            <div class="f-item">
+                                <div>
+                                    <a href="categories/electronics.html">
+                                        <input type="radio" name="categories">
+                                        <label for="">Electronics</label>
+                                    </a>
+                                </div>
+                                <p>28</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <a href="categories/sport equipments.html">
+                                        <input type="radio" name="categories">
+                                        <label for="">Sport Equipments</label>
+                                    </a>
+                                </div>
+                                <p>307</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <a href="categories/furniture.html">
+                                        <input type="radio" name="categories">
+                                        <label for="">Furniture</label>
+                                    </a>
+                                </div>
+                                <p>54</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <a href="categories/software solutions.html">
+                                        <input type="radio" name="categories">
+                                        <label for="">Software Solutions</label>
+                                    </a>
+                                </div>
+                                <p>762</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <a href="categories/food and grossery.html">
+                                        <input type="radio" name="categories">
+                                        <label for="">Food & Grossery</label>
+                                    </a>
+                                </div>
+                                <p>95</p>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!--Price-->
+                    <h1>Price</h1>
+                    <form action="" method="GET">
+                        <div class="items">
+                            <div class="f-item">
+                                <div>
+                                    <input type="radio" name="categories">
+                                    <label for="">All</label>
+                                </div>
+                                <p>2074</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <input type="radio" name="categories">
+                                    <label for="">0$ - 99$</label>
+                                </div>
+                                <p>1403</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <input type="radio" name="categories">
+                                    <label for="">100$ - 999$</label>
+                                </div>
+                                <p>570</p>
+                            </div>
+                            <div class="f-item">
+                                <div>
+                                    <input type="radio" name="categories">
+                                    <label for="">1000$ & Above</label>
+                                </div>
+                                <p>83</p>
+                            </div>
+                            <!--Price range-->
+                            <div class="range">
+                                <span>Price Range</span> <br>
+                                <div class="price_range">
+                                    <input type="range" id="one">
+                                    <input type="range" id="two">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!--Categories-->
+                    <div class="sizes">
+                        <h1>Categories</h1> <br>
+                        <div class="size">
+                            <button>
+                                <p>XS</p>
+                                <p>S</p>
+                                <p>M</p>
+                                <p>L</p>
+                                <p>XL</p>
+                            </button>
+                        </div>
+                    </div>
+                    <!--Color-->
+                    <div class="color">
+                        <h1>Color</h1>
+                        <div class="colors">
+                            <div id="one"></div>
+                            <div id="two"></div>
+                            <div id="three"></div>
+                            <div id="four"></div>
+                            <div id="five"></div>
+                            <div id="six"></div>
+                        </div>
+                        <div class="button">
+                            <button id="reset">Reset</button>
+                            <button id="more">More</button>
+                        </div>
+                    </div>
+                </aside>
+                <!--Sidebar 2-->
+                <aside class="sidebar2">
+                    <h1>Recently added</h1>
+                    <p>24 items has been added</p>
+                    <div class="dot">
+                        <div id="dot1"></div>
+                        <div id="dot2"></div>
+                    </div>
+                    <div class="brand">
+                        <div class="first">
+                            <img src="assets/media/saleshoe1.svg" alt="image">
+                            <div id="text">
+                                <h2>Darius The Great</h2>
+                                <p>All it takes tank credibility <br>
+                                    is one glaring error</p>
+                            </div>
+                        </div>
+                        <div class="second">
+                            <button>Edit</button>
+                            <p id="name">Price:</p>
+                            <p>99.00$</p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="first">
+                            <img src="assets/media/saleshoe2.svg" alt="image">
+                            <div id="text">
+                                <h2>Nike Airmax</h2>
+                                <p>All it takes tank credibility <br>
+                                    is one glaring error</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <button>Edit</button>
+                        <p id="name">Price:</p>
+                        <p>49.00$</p>
+                    </div>
+                </aside>
+
+            </div>
+            <!--Main-->
+            <div class="main">
+                <section class="grid">
+                    <!--grid-one-->
+                    <div class="grid-one">
+                        <div class="elem a">
+                            <h1 id="nike">Nike Snickers</h1>
+                            <h2 id="desc">Get Amazing & Great Nike Shoes</h2>
+                            <div id="img">
+                                <img src="assets/media/shoe1.svg">
+                            </div>
+                        </div>
+                        <div class="elem b">
+                            <img src="assets/media/backpack.svg">
+                            <h1>Kanken</h1>
+                            <h2>Amazing Backpack</h2>
+                        </div>
+                        <div class="elem c">
+                            <h1 id="nike">Nike White Shoes</h1>
+                            <h2 id="desc">Get Amazing & Great Nike Shoes</h2>
+                            <div id="img">
+                                <img src="assets/media/shoe2.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <!--grid-two-->
+                    <div class="grid-two">
+                        <div class="elem d">
+                            <img src="assets/media/headphone.svg">
+                            <div id="text1">
+                                <h3>Bose Headphones 700</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+
+                        <div class="elem e">
+                            <img src="assets/media/amazon.svg">
+                            <div id="text1">
+                                <h3>Amazon Bip Home</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+
+                        <div class="elem f">
+                            <img src="assets/media/vase.svg">
+                            <div id="text1">
+                                <h3>Black & White Vases</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+
+                        <div class="elem g">
+                            <img src="assets/media/chair.svg">
+                            <div id="text1">
+                                <h3>Spine Friendly Chair</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+
+                        <div class="elem h">
+                            <img src="assets/media/kettle.svg">
+                            <div id="text1">
+                                <h3>Yellow Kettle</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+
+                        <div class="elem i">
+                            <img src="assets/media/mats.svg">
+                            <div id="text1">
+                                <h3>Amazing Mats</h3>
+                                <p>$370.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="lock">
+        <form action="GET">
+            <label for="">Password</label>
+            <input type="password" id="pass1" required placeholder="your password" value="off">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
