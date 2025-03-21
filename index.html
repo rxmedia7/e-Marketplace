@@ -82,46 +82,42 @@
                         <div class="items">
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="categories">
-                                    <label for="categories">Electronics</label>
-                                    </a>
+                                    <input type="radio" id="electronics" name="categories">
+                                    <label for="electronics">Electronics</label>
                                 </div>
                                 <p>28</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="categories">
-                                    <label for="categories">Sport Equipments</label>
-                                    </a>
+                                    <input type="radio" id="sport-equipments" name="categories">
+                                    <label for="sport-equipments">Sport Equipments</label>
                                 </div>
                                 <p>307</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="categories">
-                                    <label for="categories">Furniture</label>
-                                    </a>
+                                    <input type="radio" id="furniture" name="categories">
+                                    <label for="furniture">Furniture</label>
                                 </div>
                                 <p>54</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="categories">
-                                    <label for="categories">Software Solutions</label>
-                                    </a>
+                                    <input type="radio" id="software-solutions" name="categories">
+                                    <label for="software-solutions">Software Solutions</label>
                                 </div>
                                 <p>762</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="categories">
-                                    <label for="categories">Food & Grossery</label>
-                                    </a>
+                                    <input type="radio" id="food-grocery" name="categories">
+                                    <label for="food-grocery">Food & Grocery</label>
                                 </div>
                                 <p>95</p>
                             </div>
                         </div>
                     </form>
+
 
                     <!--Price-->
                     <h1>Price</h1>
@@ -129,33 +125,34 @@
                         <div class="items">
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="prices">
-                                    <label for="prices">All</label>
+                                    <input type="radio" id="all" name="prices">
+                                    <label for="all">All</label>
                                 </div>
                                 <p>2074</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="prices">
-                                    <label for="prices">0$ - 99$</label>
+                                    <input type="radio" id="low" name="prices">
+                                    <label for="low">0$ - 99$</label>
                                 </div>
                                 <p>1403</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="prices">
-                                    <label for="prices">100$ - 999$</label>
+                                    <input type="radio" id="mid" name="prices">
+                                    <label for="mid">100$ - 999$</label>
                                 </div>
                                 <p>570</p>
                             </div>
                             <div class="f-item">
                                 <div>
-                                    <input type="radio" name="prices">
-                                    <label for="prices">1000$ & Above</label>
+                                    <input type="radio" id="high" name="prices">
+                                    <label for="high">1000$ & Above</label>
                                 </div>
                                 <p>83</p>
                             </div>
-                            <!--Price range-->
+
+                            <!-- Price range (unchanged) -->
                             <div class="range">
                                 <span>Price Range</span> <br>
                                 <div class="price_range">
@@ -165,6 +162,8 @@
                             </div>
                         </div>
                     </form>
+
+
 
                     <!--Categories-->
                     <div class="sizes">
@@ -321,7 +320,7 @@
 
     <div class="lock">
         <form action="GET">
-            <label for="">Password</label>
+            <label for="pass1">Password</label>
             <input type="password" id="pass1" required placeholder="your password" value="off">
         </form>
     </div>
